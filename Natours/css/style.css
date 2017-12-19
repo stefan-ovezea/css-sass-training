@@ -222,8 +222,6 @@ body {
   position: relative;
   height: 50rem; }
   .card__side {
-    color: #FFF;
-    font-size: 2rem;
     height: 50rem;
     transition: all .8s ease;
     position: absolute;
@@ -236,7 +234,6 @@ body {
     .card__side--front {
       background-color: #FFF; }
     .card__side--back {
-      background-color: greenyellow;
       transform: rotateY(-180deg); }
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #FFB900, #FF7730); }
