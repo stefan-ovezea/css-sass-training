@@ -197,6 +197,25 @@ body {
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: .3rem;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: .3s; }
+  .feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
+  .feature-box__icon {
+    font-size: 6rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    color: transparent;
+    background-image: linear-gradient(to right, #7ED56F, #28B485);
+    -webkit-background-clip: text;
+    background-clip: text; }
+
 .row {
   max-width: 200rem;
   margin: 0 auto; }
@@ -246,4 +265,13 @@ body {
 .section-about {
   background-color: #F7F7F7;
   padding: 25rem;
+  padding-bottom: 40rem;
   margin-top: -20vh; }
+
+.section-features {
+  padding: 20rem 25rem;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-size: cover;
+  transform: skewY(-7deg) translateY(-15rem); }
+  .section-features > * {
+    transform: skewY(7deg); }
