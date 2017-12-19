@@ -19,5 +19,11 @@
     & > * {
         transform: skewY(7deg);
     }
-    
+}
+
+.section-tours {
+    background-color: $color-grey-light-1;
+    padding: 25rem;
+    padding-bottom: 50rem;
+    margin-top: -27rem;
 }
